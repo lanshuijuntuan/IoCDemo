@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.console", "IoC.console\IoC.console.csproj", "{EE317491-63DB-4F30-B60E-686B881D031F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InversionOfControl", "InversionOfControl", "{89A65D7E-2D87-41FE-885C-058CAC80399C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.WinForms", "IoC.WinForms\IoC.WinForms.csproj", "{491EF313-EC98-4CC2-BFBC-60CC11D68D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.DISample", "IoC.DISample\IoC.DISample.csproj", "{8A3EB1EB-0E9E-4F50-9A27-FB924239B3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.SampleFactory", "IoC.SampleFactory\IoC.SampleFactory.csproj", "{A14CE64A-E62A-43C1-8F80-F24DE1294811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC.SampleFactoryTests", "IoC.SampleFactoryTests\IoC.SampleFactoryTests.csproj", "{0DE25094-AF24-4CB7-B110-7C4A7335A787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE317491-63DB-4F30-B60E-686B881D031F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE317491-63DB-4F30-B60E-686B881D031F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE317491-63DB-4F30-B60E-686B881D031F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE317491-63DB-4F30-B60E-686B881D031F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491EF313-EC98-4CC2-BFBC-60CC11D68D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491EF313-EC98-4CC2-BFBC-60CC11D68D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491EF313-EC98-4CC2-BFBC-60CC11D68D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491EF313-EC98-4CC2-BFBC-60CC11D68D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3EB1EB-0E9E-4F50-9A27-FB924239B3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3EB1EB-0E9E-4F50-9A27-FB924239B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3EB1EB-0E9E-4F50-9A27-FB924239B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3EB1EB-0E9E-4F50-9A27-FB924239B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14CE64A-E62A-43C1-8F80-F24DE1294811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14CE64A-E62A-43C1-8F80-F24DE1294811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14CE64A-E62A-43C1-8F80-F24DE1294811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14CE64A-E62A-43C1-8F80-F24DE1294811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE25094-AF24-4CB7-B110-7C4A7335A787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE25094-AF24-4CB7-B110-7C4A7335A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE25094-AF24-4CB7-B110-7C4A7335A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE25094-AF24-4CB7-B110-7C4A7335A787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
